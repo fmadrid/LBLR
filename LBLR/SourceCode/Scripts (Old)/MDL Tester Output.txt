@@ -1,0 +1,11 @@
+----------------------------------------
+ MDL TESTER Experiment Information
+----------------------------------------
+Date-Time:   04-Dec-2017 16:54:30
+Segments:    [8 7 6 5 4 3 2]
+CLASS:       [1 0 2 0 1 0 2]
+LENGTH:      100
+NOISE_DIFF:  0
+CARDINALITY: 4 bits (16 values)
+SEED:        10 
+
