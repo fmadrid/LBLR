@@ -22,7 +22,7 @@ This project requires an installation of [Matlab (R2017b)](https://www.mathworks
 
 After installing the required software and toolboxes, simply clone or download the project to your Matlab User Path. To identify your Matlab User Path, run the command `userpath` on the Matlab command line. By default on a Windows 7 or Windows 10 machine, the userpath is `C:\Users\[username]\Documents\MATLAB`. 
 
-To test your setup, simply run the application with the provided test input: `LBLR('Datasets\TestInput.mat')`.
+To test your setup, simply run the application with the provided test input: `LBLR`
 
 If the application initiated, then setup was successful.
 
@@ -57,7 +57,7 @@ AutoLBLR(TimeSeries, ModelLength, SolutionVector, ExclusionRange = ModelLength/2
 * [Matlab (R2017b)](https://www.mathworks.com/?s_tid=gn_logo)
 
 ## Contributing
-We are not accepting commits at this time but will be facilitating the means for public contribution in the near future.
+We are not accepting external commits at this time but will be facilitating the means for public contribution in the near future.
 
 
 ## Authors
@@ -65,7 +65,3 @@ We are not accepting commits at this time but will be facilitating the means for
 * **Frank Madrid** - *Initial work* - [fmadrid](https://github.com/fmadrid)
 
 See also the list of [contributors](https://github.com/fmadrid/LBLR/contributors) who participated in this project.
-
-## Acknowledgments
-
-* Thank you to Quentin Chesnais, and Kerry Mauck (paper co-authors) for providing a LBLR case study.
