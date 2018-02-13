@@ -16,7 +16,7 @@ This project requires the following software:
 * [Matlab (R2017b)](https://www.mathworks.com/?s_tid=gn_logo)
 
 and the following licenses:
-* Communications Toolbox
+* Communications Toolbox (for information on how to install a Matlab toolbox, go [here](https://www.mathworks.com/matlabcentral/answers/101885-how-do-i-install-additional-toolboxes-into-an-existing-installation-of-matlab))
 
 ### Prerequisites
 
