@@ -8,7 +8,7 @@ Given a time series T of length n, we wish to produce an annotation vector A of 
 annotates T while minimizing the number of accesses to a human annotator.
 ```
 Here you will find the project [Source Code](https://github.com/fmadrid/LBLR/tree/master/SourceCode), [Documentation](https://github.com/fmadrid/LBLR/tree/master/Documentation), and 
-[Experimental Results](https://github.com/fmadrid/LBLR/tree/master/Experiments) but be sure to also checkout our project website [LBLR Homepage](https://www.cs.ucr.edu/~fmadr002/LBLR.html).
+[Experimental Results](https://github.com/fmadrid/LBLR/tree/master/Experiments) but be sure to also checkout our project website [LBLR Homepage](http://www.cs.ucr.edu/~fmadr002/LBLR.html).
 
 ## Getting Started
 
