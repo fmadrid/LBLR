@@ -16,11 +16,7 @@ Here you will find the project [Source Code](https://github.com/fmadrid/LBLR/tre
 
 ### Prerequisites
 
-This project requires the following software:
-* [Matlab (R2017b)](https://www.mathworks.com/?s_tid=gn_logo)
-
-and the following licenses:
-* Communications Toolbox (for information on how to install a Matlab toolbox, go [here](https://www.mathworks.com/matlabcentral/answers/101885-how-do-i-install-additional-toolboxes-into-an-existing-installation-of-matlab))
+This project requires an installation of [Matlab (R2017b)](https://www.mathworks.com/?s_tid=gn_logo) and the [Communications Toolbox](https://www.mathworks.com/matlabcentral/answers/101885-how-do-i-install-additional-toolboxes-into-an-existing-installation-of-matlab))
 
 ```
 Give examples
