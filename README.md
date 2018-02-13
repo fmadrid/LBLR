@@ -12,9 +12,6 @@ Here you will find the project [Source Code](https://github.com/fmadrid/LBLR/tre
 
 Though not fully optimized we encourage users to use our application and share any experiences (or issues) they encounter when using our software. Please send any inquiries to fmadr002[at]ucr[dot]edu.
 
-Thank you,
-Frank Madrid
-
 ## Getting Started
 
 
