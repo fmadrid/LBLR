@@ -10,7 +10,7 @@ annotates T while minimizing the number of accesses to a human annotator.
 Here you will find the project [Source Code](https://github.com/fmadrid/LBLR/tree/master/SourceCode), [Documentation](https://github.com/fmadrid/LBLR/tree/master/Documentation), and 
 [Experimental Results](https://github.com/fmadrid/LBLR/tree/master/Experiments) but be sure to also checkout our project website [LBLR Homepage](http://www.cs.ucr.edu/~fmadr002/LBLR.html).
 
-Though not fully optimized we encourage users to use our application and share any experiences (or issues) they encounter when using our software. Please send any inquiries to fmadr002[at]ucr[dot]edu.
+Though not fully optimized we encourage users to use our application and share any experiences (or issues) they encounter when using our software. Please send any inquiries to fmadr002[at]ucr[dot]edu, subject line: LBLR
 
 ## Getting Started
 
