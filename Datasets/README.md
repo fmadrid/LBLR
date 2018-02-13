@@ -1,7 +1,7 @@
 # Datasets
 Datasets used for both the LBLR and AutoLBLR experiments.
 
-## Dataset Format
+## Format
 Each dataset file should have the `.mat` extension and should contain a single structure with the following fields: "Information" "TimeSeries" "Solution"
 ```
 SampleDataset = 
