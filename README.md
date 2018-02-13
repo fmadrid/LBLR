@@ -1,14 +1,21 @@
 # Like-Behaviors Labeling Routing (LBLR)
 
-LBLR presented in [Efficient and Effective Labeling of Massive Time Series Archives](https://github.com/fmadrid/LBLR/blob/master/Documentation/Efficient%20and%20Effective%20Labeling%20of%20Massive%20Time%20Series.pdf) is our solution to the following problem:
+**LBLR** presented in [Efficient and Effective Labeling of Massive Time Series Archives](https://github.com/fmadrid/LBLR/blob/master/Documentation/Efficient%20and%20Effective%20Labeling%20of%20Massive%20Time%20Series.pdf)
+(Submitted to KDD 2018) is our solution to the following problem:
 
 ```
 Given a time series T of length n, we wish to produce an annotation vector A of length n which correctly
 annotates T while minimizing the number of accesses to a human annotator.
 ```
+Here you will find the project [Source Code](https://github.com/fmadrid/LBLR/tree/master/SourceCode), [Documentation](https://github.com/fmadrid/LBLR/tree/master/Documentation), and 
+[Experimental Results](https://github.com/fmadrid/LBLR/tree/master/Experiments) but be sure to also checkout our project website [LBLR Homepage](www.cs.ucr.edu/~fmadr002/LBLR.html).
+
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+This project requires the following software:
+* Matlab (R2017b)
+and the following licenses:
+* Communications Toolbox
 
 ### Prerequisites
 
