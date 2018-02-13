@@ -8,91 +8,41 @@ Given a time series T of length n, we wish to produce an annotation vector A of 
 annotates T while minimizing the number of accesses to a human annotator.
 ```
 Here you will find the project [Source Code](https://github.com/fmadrid/LBLR/tree/master/SourceCode), [Documentation](https://github.com/fmadrid/LBLR/tree/master/Documentation), and 
-[Experimental Results](https://github.com/fmadrid/LBLR/tree/master/Experiments) but be sure to also checkout our project website [LBLR Homepage](www.cs.ucr.edu/~fmadr002/LBLR.html).
+[Experimental Results](https://github.com/fmadrid/LBLR/tree/master/Experiments) but be sure to also checkout our project website [LBLR Homepage](http://www.cs.ucr.edu/~fmadr002/LBLR.html).
+
+Though not fully optimized we encourage users to use our application and share any experiences (or issues) they encounter when using our software. Please send any inquiries to fmadr002[at]ucr[dot]edu.
 
 ## Getting Started
 
-This project requires the following software:
-* Matlab (R2017b)
-and the following licenses:
-* Communications Toolbox
-
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+This project requires an installation of [Matlab (R2017b)](https://www.mathworks.com/?s_tid=gn_logo) and the [Communications Toolbox](https://www.mathworks.com/matlabcentral/answers/101885-how-do-i-install-additional-toolboxes-into-an-existing-installation-of-matlab).
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
+After installing the required software and toolboxes, simply clone or download the project to your Matlab User Path. To identify your Matlab User Path, run the command `userpath` on the Matlab command line. By default on a Windows 7 or Windows 10 machine, the userpath is `C:\Users\[username]\Documents\MATLAB`. 
 
-Say what the step will be
+To test your setup, simply run the application with the provided test input: `LBLR('Datasets\TestInput.mat')`.
 
-```
-Give the example
-```
+If the application initiated, then setup was successful.
 
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
+## Using LBLR
+*Section under construction*
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Matlab (R2017b)](https://www.mathworks.com/?s_tid=gn_logo)
 
 ## Contributing
+We are not accepting commits at this time but will be facilitating the means for public contribution in the near future.
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Frank Madrid** - *Initial work* - [fmadrid](https://github.com/fmadrid)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+See also the list of [contributors](https://github.com/fmadrid/LBLR/contributors) who participated in this project.
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+* Thank you to Quentin Chesnais, and Kerry Mauck (paper co-authors) for providing a LBLR case study.
