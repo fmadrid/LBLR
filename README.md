@@ -27,7 +27,30 @@ To test your setup, simply run the application with the provided test input: `LB
 If the application initiated, then setup was successful.
 
 ## Using LBLR
-*Section under construction*
+The **LBLR** application can be initiated by simply executing `LBLR` in the MATLAB command window. To execute **AutoLBLR**, call `AutoLBLR(...)` with the appropriate parameters (see below)
+
+**AutoLBLR** is an *unsupervised* execution of the **LBLR** application. Instead of deferring to the human annotator (user) **AutoLBLR** will simply apply a classification label to the cluster of subsequences which are 
+semantically similar. If AutoLBLR is not running *blind* it will greedily apply the most likely label as indicated by the `SolutionVector` otherwise the label will simply be the current iteration of the algorithm.
+
+```
+AutoLBLR(TimeSeries, ModelLength, SolutionVector, ExclusionRange = ModelLength/2, Bits = 4, OPTIONS)
+    Inputs:
+        TimeSeries     -
+        ModelLength    -
+        SolutionVector - 
+        
+    Outputs:
+        Labels               -
+        PlotHandles          -
+        CompletionPercentage - 
+        
+    Options
+        Blind             -
+        ShowPlot          -
+        Colors            -
+        Debug             -
+        MaximumIterations -
+```
 
 ## Built With
 
