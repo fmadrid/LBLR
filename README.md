@@ -10,23 +10,17 @@ annotates T while minimizing the number of accesses to a human annotator.
 Here you will find the project [Source Code](https://github.com/fmadrid/LBLR/tree/master/SourceCode), [Documentation](https://github.com/fmadrid/LBLR/tree/master/Documentation), and 
 [Experimental Results](https://github.com/fmadrid/LBLR/tree/master/Experiments) but be sure to also checkout our project website [LBLR Homepage](http://www.cs.ucr.edu/~fmadr002/LBLR.html).
 
-Though not fully optimized we encourage users to use our application and share any experiences (or issues) they encounter when using our software. Please send any inquiries to fmadr002[at]ucr[dot]edu, subject line: LBLR
+Though not fully optimized we encourage users to use our application and share any experiences (or issues) they encounter when using our software. Please send any inquiries to fmadr002[at]ucr[dot]edu.
 
 ## Getting Started
-
-
 
 ### Prerequisites
 
 This project requires an installation of [Matlab (R2017b)](https://www.mathworks.com/?s_tid=gn_logo) and the [Communications Toolbox](https://www.mathworks.com/matlabcentral/answers/101885-how-do-i-install-additional-toolboxes-into-an-existing-installation-of-matlab).
 
-```
-Give examples
-```
-
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
+After installing the required software and toolboxes, simply clone or download the project to your Matlab User Path. To identify your Matlab User Path, run the command `userpath` on the Matlab command line. By default on a Windows 7 or Windows 10 machine, the userpath is `C:\Users\[username]\Documents\MATLAB'.
 
 Say what the step will be
 
