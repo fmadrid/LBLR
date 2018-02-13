@@ -29,7 +29,7 @@ addRequired(p, paramName, validationFcn);
 
 paramName     = 'Range';
 defaultVal    = [-1,1];
-validationFcn = @(x)validateattributes(x, {'numeric'}, {'numel', 2}) & x(1) <= x(2);
+validationFcn = @(x) validateattributes(x, {'numeric'}, {'numel', 2, 'nondecreasing'});
 addOptional(p, paramName, defaultVal, validationFcn);
 
 paramName     = 'Discrete';
@@ -37,6 +37,8 @@ defaultVal    = false;
 validationFcn = @(x)validateattributes(x, {'logical'}, {'scalar'});
 addParameter(p, paramName, defaultVal, validationFcn);
 p.parse(T, varargin{:});
+Range = p.Results.Range;
+Discrete = p.Results.Discrete;
 
 %% BEGIN
 MinValue = min(T);

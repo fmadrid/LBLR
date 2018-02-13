@@ -40,12 +40,14 @@ validationFcn = @(x) validateattributes(x, {'function_handle'}, {'nonempty'});
 addOptional(p, paramName, defaultVal, validationFcn);
 
 p.parse(Sequence, Hypothesis, varargin{:});
+ExclusionRange = p.Results.ExclusionRange;
 
 errormsg = '[MDL] Hypothesis length must be smaller than the Sequence length.';
 assert(numel(Hypothesis) < numel(Sequence), errormsg);
 
 errormsg = '[MDL] ExclusionRange must be less than half the Hypothesis length.';
 assert(ExclusionRange <= numel(Hypothesis) / 2, errormsg);
+Encoding = p.Results.Encoding;
 
 %% BEGIN
 

@@ -37,7 +37,7 @@ function [Labels, PlotHandles, Progress] = AutoLBLR(Data, Length, Solution, vara
   addParameter(p, paramName, defaultVal, validationFcn);
 
   paramName     = 'Debug';
-  defaultVal    = false;
+  defaultVal    = true;
   validationFcn = @(x) validateattributes(x, {'logical'}, {'scalar'});
   addParameter(p, paramName, defaultVal, validationFcn);
 
