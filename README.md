@@ -20,7 +20,11 @@ This project requires an installation of [Matlab (R2017b)](https://www.mathworks
 
 ### Installing
 
-After installing the required software and toolboxes, simply clone or download the project to your Matlab User Path. To identify your Matlab User Path, run the command `userpath` on the Matlab command line. By default on a Windows 7 or Windows 10 machine, the userpath is `C:\Users\[username]\Documents\MATLAB`. To test your setup, simply run the application with the provided test input: `LBLR('Datasets\TestInput.mat')`. If the application initiated, then setup was successful.
+After installing the required software and toolboxes, simply clone or download the project to your Matlab User Path. To identify your Matlab User Path, run the command `userpath` on the Matlab command line. By default on a Windows 7 or Windows 10 machine, the userpath is `C:\Users\[username]\Documents\MATLAB`. 
+
+To test your setup, simply run the application with the provided test input: `LBLR('Datasets\TestInput.mat')`.
+
+If the application initiated, then setup was successful.
 
 
 ## Running the tests
