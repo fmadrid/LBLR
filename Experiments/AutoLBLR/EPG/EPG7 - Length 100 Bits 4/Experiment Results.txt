@@ -1,0 +1,19 @@
+==================================================
+ AutoLBLR Experiment
+==================================================
+Experiment Parameters
+	Dataset: Datasets/EPG7.mat
+
+AutoLBLR Parameters
+	Length : 100
+	Bits   : 4
+	Blind  : 0
+
+==================================================
+ Results
+==================================================
+Iterations       : 53
+Elapsed Time     : 31.90 seconds
+Classified       : 100.00
+Overall Accuracy : 99.67
+Default Accuracy : 60.18

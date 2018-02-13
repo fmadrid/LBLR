@@ -1,0 +1,11 @@
+==================================================
+ AutoLBLR Experiment
+==================================================
+Experiment Parameters
+	Dataset: Tilt/Datasets/Tilt2.mat
+
+AutoLBLR Parameters
+	Length : 60
+	Bits   : 4
+	Blind  : 0
+

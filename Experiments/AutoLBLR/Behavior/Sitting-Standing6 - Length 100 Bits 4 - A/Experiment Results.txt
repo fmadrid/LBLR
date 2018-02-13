@@ -1,0 +1,19 @@
+==================================================
+ AutoLBLR Experiment
+==================================================
+Experiment Parameters
+	Dataset: ../../Datasets/Behavior/Sitting-Standing6.mat
+
+AutoLBLR Parameters
+	Length : 100
+	Bits   : 4
+	Blind  : 0
+
+==================================================
+ Results
+==================================================
+Iterations       : 42
+Elapsed Time     : 24.45 seconds
+Classified       : 98.43
+Overall Accuracy : 98.43
+Default Accuracy : 50.00

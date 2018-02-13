@@ -1,0 +1,19 @@
+==================================================
+ AutoLBLR Experiment
+==================================================
+Experiment Parameters
+	Dataset: ../../Datasets/Behavior/Lying-Sitting.mat
+
+AutoLBLR Parameters
+	Length : 50
+	Bits   : 4
+	Blind  : 0
+
+==================================================
+ Results
+==================================================
+Iterations       : 115
+Elapsed Time     : 56.17 seconds
+Classified       : 100.00
+Overall Accuracy : 99.72
+Default Accuracy : 50.00

@@ -1,0 +1,19 @@
+==================================================
+ AutoLBLR Experiment
+==================================================
+Experiment Parameters
+	Dataset: Pulsus/Datasets/Pulsus2.mat
+
+AutoLBLR Parameters
+	Length : 100
+	Bits   : 4
+	Blind  : 0
+
+==================================================
+ Results
+==================================================
+Iterations       : 3
+Elapsed Time     : 13.37 seconds
+Classified       : 99.71
+Overall Accuracy : 99.71
+Default Accuracy : 57.07

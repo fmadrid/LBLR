@@ -1,0 +1,19 @@
+==================================================
+ AutoLBLR Experiment
+==================================================
+Experiment Parameters
+	Dataset: ../../Datasets/WalkSaw/WalkSaw1.mat
+
+AutoLBLR Parameters
+	Length : 20
+	Bits   : 4
+	Blind  : 0
+
+==================================================
+ Results
+==================================================
+Iterations       : 16
+Elapsed Time     : 4.58 seconds
+Classified       : 99.78
+Overall Accuracy : 99.63
+Default Accuracy : 58.08

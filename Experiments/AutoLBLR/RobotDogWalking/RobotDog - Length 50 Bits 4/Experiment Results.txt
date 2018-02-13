@@ -1,0 +1,19 @@
+==================================================
+ AutoLBLR Experiment
+==================================================
+Experiment Parameters
+	Dataset: RobotDogWalking/Datasets/RobotDog.mat
+
+AutoLBLR Parameters
+	Length : 50
+	Bits   : 4
+	Blind  : 0
+
+==================================================
+ Results
+==================================================
+Iterations       : 48
+Elapsed Time     : 63.75 seconds
+Classified       : 99.89
+Overall Accuracy : 99.89
+Default Accuracy : 63.65

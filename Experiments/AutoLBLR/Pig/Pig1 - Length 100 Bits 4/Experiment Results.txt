@@ -1,0 +1,19 @@
+==================================================
+ AutoLBLR Experiment
+==================================================
+Experiment Parameters
+	Dataset: Pig/Datasets/Pig1.mat
+
+AutoLBLR Parameters
+	Length : 100
+	Bits   : 4
+	Blind  : 0
+
+==================================================
+ Results
+==================================================
+Iterations       : 47
+Elapsed Time     : 217.47 seconds
+Classified       : 99.70
+Overall Accuracy : 99.39
+Default Accuracy : 50.09

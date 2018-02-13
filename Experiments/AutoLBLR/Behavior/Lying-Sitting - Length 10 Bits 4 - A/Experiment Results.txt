@@ -1,0 +1,11 @@
+==================================================
+ AutoLBLR Experiment
+==================================================
+Experiment Parameters
+	Dataset: ../../Datasets/Behavior/Lying-Sitting.mat
+
+AutoLBLR Parameters
+	Length : 10
+	Bits   : 4
+	Blind  : 0
+

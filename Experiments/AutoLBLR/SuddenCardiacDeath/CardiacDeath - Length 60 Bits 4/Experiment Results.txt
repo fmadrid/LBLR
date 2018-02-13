@@ -1,0 +1,19 @@
+==================================================
+ AutoLBLR Experiment
+==================================================
+Experiment Parameters
+	Dataset: SuddenCardiacDeath/Datasets/CardiacDeath.mat
+
+AutoLBLR Parameters
+	Length : 60
+	Bits   : 4
+	Blind  : 0
+
+==================================================
+ Results
+==================================================
+Iterations       : 31
+Elapsed Time     : 27.62 seconds
+Classified       : 99.65
+Overall Accuracy : 99.58
+Default Accuracy : 72.93

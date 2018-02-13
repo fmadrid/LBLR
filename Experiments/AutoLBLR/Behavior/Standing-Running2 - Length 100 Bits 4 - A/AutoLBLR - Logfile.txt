@@ -1,0 +1,995 @@
+==================================================
+ AutoLBLR
+==================================================
+
+==================================================
+ Initialization
+==================================================
+AutoLBLR Parameters
+	Data Size:       6000
+	Length:          100
+	Exclusion Range: 50
+	Bits:            4
+	Classes:         2
+
+==================================================
+ Experiment
+==================================================
+01:19:54 - [AutoLBLR] Iteration [1].
+	Unlabeled IDX: 1 -  [1, 6000]
+	Progress:      0%
+
+01:19:55 - [AutoLBLR] Running MDL on [1] groups using MotifIDX [3629].
+	Group 1 - Found [0] subsequences: []
+
+[AutoLBLR] Motif is 100.00% Class [5].
+
+01:19:55 - [AutoLBLR] Brushing label [5] onto [1] subsequences.
+	[3629, 3728] 
+
+01:19:55 - [AutoLBLR] Autoclassifying [0] groups.
+
+01:19:55 - [AutoLBLR] Iteration [2].
+	Unlabeled IDX: 2 -  [1, 3628] [3729, 6000]
+	Progress:      1.6667%
+
+01:19:56 - [AutoLBLR] Running MDL on [2] groups using MotifIDX [1341].
+	Group 1 - Found [0] subsequences: []
+	Group 2 - Found [0] subsequences: []
+
+[AutoLBLR] Motif is 100.00% Class [3].
+
+01:19:56 - [AutoLBLR] Brushing label [3] onto [1] subsequences.
+	[1341, 1440] 
+
+01:19:56 - [AutoLBLR] Autoclassifying [0] groups.
+
+01:19:56 - [AutoLBLR] Iteration [3].
+	Unlabeled IDX: 3 -  [1, 1340] [1441, 3628] [3729, 6000]
+	Progress:      3.3333%
+
+01:19:57 - [AutoLBLR] Running MDL on [3] groups using MotifIDX [3595].
+	Group 1 - Found [0] subsequences: []
+	Group 2 - Found [0] subsequences: []
+	Group 3 - Found [0] subsequences: []
+
+[AutoLBLR] Motif is 100.00% Class [5].
+
+01:19:57 - [AutoLBLR] Brushing label [5] onto [1] subsequences.
+	[3595, 3694] 
+
+01:19:57 - [AutoLBLR] Autoclassifying [0] groups.
+
+01:19:57 - [AutoLBLR] Iteration [4].
+	Unlabeled IDX: 3 -  [1, 1340] [1441, 3594] [3729, 6000]
+	Progress:      3.9%
+
+01:19:58 - [AutoLBLR] Running MDL on [3] groups using MotifIDX [4507].
+	Group 1 - Found [0] subsequences: []
+	Group 2 - Found [0] subsequences: []
+	Group 3 - Found [0] subsequences: []
+
+[AutoLBLR] Motif is 100.00% Class [5].
+
+01:19:58 - [AutoLBLR] Brushing label [5] onto [1] subsequences.
+	[4507, 4606] 
+
+01:19:58 - [AutoLBLR] Autoclassifying [0] groups.
+
+01:19:58 - [AutoLBLR] Iteration [5].
+	Unlabeled IDX: 4 -  [1, 1340] [1441, 3594] [3729, 4506] [4607, 6000]
+	Progress:      5.5667%
+
+01:19:59 - [AutoLBLR] Running MDL on [4] groups using MotifIDX [4414].
+	Group 1 - Found [0] subsequences: []
+	Group 2 - Found [0] subsequences: []
+	Group 3 - Found [0] subsequences: []
+	Group 4 - Found [0] subsequences: []
+
+[AutoLBLR] Motif is 100.00% Class [5].
+
+01:19:59 - [AutoLBLR] Brushing label [5] onto [1] subsequences.
+	[4414, 4513] 
+
+01:19:59 - [AutoLBLR] Autoclassifying [0] groups.
+
+01:19:59 - [AutoLBLR] Iteration [6].
+	Unlabeled IDX: 4 -  [1, 1340] [1441, 3594] [3729, 4413] [4607, 6000]
+	Progress:      7.1167%
+
+01:19:59 - [AutoLBLR] Running MDL on [4] groups using MotifIDX [5178].
+	Group 1 - Found [0] subsequences: []
+	Group 2 - Found [0] subsequences: []
+	Group 3 - Found [0] subsequences: []
+	Group 4 - Found [0] subsequences: []
+
+[AutoLBLR] Motif is 100.00% Class [5].
+
+01:20:00 - [AutoLBLR] Brushing label [5] onto [1] subsequences.
+	[5178, 5277] 
+
+01:20:00 - [AutoLBLR] Autoclassifying [0] groups.
+
+01:20:00 - [AutoLBLR] Iteration [7].
+	Unlabeled IDX: 5 -  [1, 1340] [1441, 3594] [3729, 4413] [4607, 5177] [5278, 6000]
+	Progress:      8.7833%
+
+01:20:00 - [AutoLBLR] Running MDL on [5] groups using MotifIDX [5135].
+	Group 1 - Found [0] subsequences: []
+	Group 2 - Found [0] subsequences: []
+	Group 3 - Found [0] subsequences: []
+	Group 4 - Found [0] subsequences: []
+	Group 5 - Found [0] subsequences: []
+
+[AutoLBLR] Motif is 100.00% Class [5].
+
+01:20:00 - [AutoLBLR] Brushing label [5] onto [1] subsequences.
+	[5135, 5234] 
+
+01:20:00 - [AutoLBLR] Autoclassifying [0] groups.
+
+01:20:00 - [AutoLBLR] Iteration [8].
+	Unlabeled IDX: 5 -  [1, 1340] [1441, 3594] [3729, 4413] [4607, 5134] [5278, 6000]
+	Progress:      9.5%
+
+01:20:01 - [AutoLBLR] Running MDL on [5] groups using MotifIDX [5795].
+	Group 1 - Found [0] subsequences: []
+	Group 2 - Found [0] subsequences: []
+	Group 3 - Found [0] subsequences: []
+	Group 4 - Found [0] subsequences: []
+	Group 5 - Found [0] subsequences: []
+
+[AutoLBLR] Motif is 100.00% Class [5].
+
+01:20:01 - [AutoLBLR] Brushing label [5] onto [1] subsequences.
+	[5795, 5894] 
+
+01:20:01 - [AutoLBLR] Autoclassifying [0] groups.
+
+01:20:01 - [AutoLBLR] Iteration [9].
+	Unlabeled IDX: 6 -  [1, 1340] [1441, 3594] [3729, 4413] [4607, 5134] [5278, 5794] [5895, 6000]
+	Progress:      11.1667%
+
+01:20:02 - [AutoLBLR] Running MDL on [6] groups using MotifIDX [1325].
+	Group 1 - Found [0] subsequences: []
+	Group 2 - Found [0] subsequences: []
+	Group 3 - Found [0] subsequences: []
+	Group 4 - Found [0] subsequences: []
+	Group 5 - Found [0] subsequences: []
+	Group 6 - Found [0] subsequences: []
+
+[AutoLBLR] Motif is 100.00% Class [3].
+
+01:20:02 - [AutoLBLR] Brushing label [3] onto [1] subsequences.
+	[1325, 1424] 
+
+01:20:02 - [AutoLBLR] Autoclassifying [0] groups.
+
+01:20:02 - [AutoLBLR] Iteration [10].
+	Unlabeled IDX: 6 -  [1, 1324] [1441, 3594] [3729, 4413] [4607, 5134] [5278, 5794] [5895, 6000]
+	Progress:      11.4333%
+
+01:20:02 - [AutoLBLR] Running MDL on [6] groups using MotifIDX [2346].
+	Group 1 - Found [0] subsequences: []
+	Group 2 - Found [0] subsequences: []
+	Group 3 - Found [0] subsequences: []
+	Group 4 - Found [0] subsequences: []
+	Group 5 - Found [0] subsequences: []
+	Group 6 - Found [0] subsequences: []
+
+[AutoLBLR] Motif is 100.00% Class [3].
+
+01:20:02 - [AutoLBLR] Brushing label [3] onto [1] subsequences.
+	[2346, 2445] 
+
+01:20:02 - [AutoLBLR] Autoclassifying [0] groups.
+
+01:20:02 - [AutoLBLR] Iteration [11].
+	Unlabeled IDX: 7 -  [1, 1324] [1441, 2345] [2446, 3594] [3729, 4413] [4607, 5134] [5278, 5794] [5895, 6000]
+	Progress:      13.1%
+
+01:20:03 - [AutoLBLR] Running MDL on [7] groups using MotifIDX [2287].
+	Group 1 - Found [0] subsequences: []
+	Group 2 - Found [0] subsequences: []
+	Group 3 - Found [0] subsequences: []
+	Group 4 - Found [0] subsequences: []
+	Group 5 - Found [0] subsequences: []
+	Group 6 - Found [0] subsequences: []
+	Group 7 - Found [0] subsequences: []
+
+[AutoLBLR] Motif is 100.00% Class [3].
+
+01:20:03 - [AutoLBLR] Brushing label [3] onto [1] subsequences.
+	[2287, 2386] 
+
+01:20:03 - [AutoLBLR] Autoclassifying [0] groups.
+
+01:20:03 - [AutoLBLR] Iteration [12].
+	Unlabeled IDX: 7 -  [1, 1324] [1441, 2286] [2446, 3594] [3729, 4413] [4607, 5134] [5278, 5794] [5895, 6000]
+	Progress:      14.0833%
+
+01:20:04 - [AutoLBLR] Running MDL on [7] groups using MotifIDX [2505].
+	Group 1 - Found [0] subsequences: []
+	Group 2 - Found [0] subsequences: []
+	Group 3 - Found [0] subsequences: []
+	Group 4 - Found [0] subsequences: []
+	Group 5 - Found [0] subsequences: []
+	Group 6 - Found [0] subsequences: []
+	Group 7 - Found [0] subsequences: []
+
+[AutoLBLR] Motif is 100.00% Class [3].
+
+01:20:04 - [AutoLBLR] Brushing label [3] onto [1] subsequences.
+	[2505, 2604] 
+
+01:20:04 - [AutoLBLR] Autoclassifying [1] groups.
+	3: [2446,2504] -> 3
+
+01:20:04 - [AutoLBLR] Iteration [13].
+	Unlabeled IDX: 7 -  [1, 1324] [1441, 2286] [2605, 3594] [3729, 4413] [4607, 5134] [5278, 5794] [5895, 6000]
+	Progress:      16.7333%
+
+01:20:04 - [AutoLBLR] Running MDL on [7] groups using MotifIDX [1464].
+	Group 1 - Found [0] subsequences: []
+	Group 2 - Found [0] subsequences: []
+	Group 3 - Found [0] subsequences: []
+	Group 4 - Found [0] subsequences: []
+	Group 5 - Found [0] subsequences: []
+	Group 6 - Found [0] subsequences: []
+	Group 7 - Found [0] subsequences: []
+
+[AutoLBLR] Motif is 100.00% Class [3].
+
+01:20:04 - [AutoLBLR] Brushing label [3] onto [1] subsequences.
+	[1464, 1563] 
+
+01:20:04 - [AutoLBLR] Autoclassifying [1] groups.
+	2: [1441,1463] -> 3
+
+01:20:04 - [AutoLBLR] Iteration [14].
+	Unlabeled IDX: 7 -  [1, 1324] [1564, 2286] [2605, 3594] [3729, 4413] [4607, 5134] [5278, 5794] [5895, 6000]
+	Progress:      18.7833%
+
+01:20:05 - [AutoLBLR] Running MDL on [7] groups using MotifIDX [1637].
+	Group 1 - Found [0] subsequences: []
+	Group 2 - Found [0] subsequences: []
+	Group 3 - Found [0] subsequences: []
+	Group 4 - Found [0] subsequences: []
+	Group 5 - Found [0] subsequences: []
+	Group 6 - Found [0] subsequences: []
+	Group 7 - Found [0] subsequences: []
+
+[AutoLBLR] Motif is 100.00% Class [3].
+
+01:20:05 - [AutoLBLR] Brushing label [3] onto [1] subsequences.
+	[1637, 1736] 
+
+01:20:05 - [AutoLBLR] Autoclassifying [1] groups.
+	2: [1564,1636] -> 3
+
+01:20:05 - [AutoLBLR] Iteration [15].
+	Unlabeled IDX: 7 -  [1, 1324] [1737, 2286] [2605, 3594] [3729, 4413] [4607, 5134] [5278, 5794] [5895, 6000]
+	Progress:      21.6667%
+
+01:20:05 - [AutoLBLR] Running MDL on [7] groups using MotifIDX [1788].
+	Group 1 - Found [0] subsequences: []
+	Group 2 - Found [0] subsequences: []
+	Group 3 - Found [0] subsequences: []
+	Group 4 - Found [0] subsequences: []
+	Group 5 - Found [0] subsequences: []
+	Group 6 - Found [0] subsequences: []
+	Group 7 - Found [0] subsequences: []
+
+[AutoLBLR] Motif is 100.00% Class [3].
+
+01:20:06 - [AutoLBLR] Brushing label [3] onto [1] subsequences.
+	[1788, 1887] 
+
+01:20:06 - [AutoLBLR] Autoclassifying [1] groups.
+	2: [1737,1787] -> 3
+
+01:20:06 - [AutoLBLR] Iteration [16].
+	Unlabeled IDX: 7 -  [1, 1324] [1888, 2286] [2605, 3594] [3729, 4413] [4607, 5134] [5278, 5794] [5895, 6000]
+	Progress:      24.1833%
+
+01:20:06 - [AutoLBLR] Running MDL on [7] groups using MotifIDX [1963].
+	Group 1 - Found [0] subsequences: []
+	Group 2 - Found [0] subsequences: []
+	Group 3 - Found [0] subsequences: []
+	Group 4 - Found [0] subsequences: []
+	Group 5 - Found [0] subsequences: []
+	Group 6 - Found [0] subsequences: []
+	Group 7 - Found [0] subsequences: []
+
+[AutoLBLR] Motif is 100.00% Class [3].
+
+01:20:06 - [AutoLBLR] Brushing label [3] onto [1] subsequences.
+	[1963, 2062] 
+
+01:20:06 - [AutoLBLR] Autoclassifying [1] groups.
+	2: [1888,1962] -> 3
+
+01:20:06 - [AutoLBLR] Iteration [17].
+	Unlabeled IDX: 7 -  [1, 1324] [2063, 2286] [2605, 3594] [3729, 4413] [4607, 5134] [5278, 5794] [5895, 6000]
+	Progress:      27.1%
+
+01:20:07 - [AutoLBLR] Running MDL on [7] groups using MotifIDX [2067].
+	Group 1 - Found [0] subsequences: []
+	Group 2 - Found [0] subsequences: []
+	Group 3 - Found [0] subsequences: []
+	Group 4 - Found [0] subsequences: []
+	Group 5 - Found [0] subsequences: []
+	Group 6 - Found [0] subsequences: []
+	Group 7 - Found [0] subsequences: []
+
+[AutoLBLR] Motif is 100.00% Class [3].
+
+01:20:07 - [AutoLBLR] Brushing label [3] onto [1] subsequences.
+	[2067, 2166] 
+
+01:20:07 - [AutoLBLR] Autoclassifying [1] groups.
+	2: [2063,2066] -> 3
+
+01:20:07 - [AutoLBLR] Iteration [18].
+	Unlabeled IDX: 7 -  [1, 1324] [2167, 2286] [2605, 3594] [3729, 4413] [4607, 5134] [5278, 5794] [5895, 6000]
+	Progress:      28.8333%
+
+01:20:07 - [AutoLBLR] Running MDL on [7] groups using MotifIDX [3787].
+	Group 1 - Found [0] subsequences: []
+	Group 2 - Found [0] subsequences: []
+	Group 3 - Found [0] subsequences: []
+	Group 4 - Found [0] subsequences: []
+	Group 5 - Found [0] subsequences: []
+	Group 6 - Found [0] subsequences: []
+	Group 7 - Found [0] subsequences: []
+
+[AutoLBLR] Motif is 100.00% Class [5].
+
+01:20:07 - [AutoLBLR] Brushing label [5] onto [1] subsequences.
+	[3787, 3886] 
+
+01:20:07 - [AutoLBLR] Autoclassifying [1] groups.
+	4: [3729,3786] -> 5
+
+01:20:07 - [AutoLBLR] Iteration [19].
+	Unlabeled IDX: 7 -  [1, 1324] [2167, 2286] [2605, 3594] [3887, 4413] [4607, 5134] [5278, 5794] [5895, 6000]
+	Progress:      31.4667%
+
+01:20:08 - [AutoLBLR] Running MDL on [7] groups using MotifIDX [633].
+	Group 1 - Found [0] subsequences: []
+	Group 2 - Found [0] subsequences: []
+	Group 3 - Found [0] subsequences: []
+	Group 4 - Found [0] subsequences: []
+	Group 5 - Found [0] subsequences: []
+	Group 6 - Found [0] subsequences: []
+	Group 7 - Found [0] subsequences: []
+
+[AutoLBLR] Motif is 100.00% Class [3].
+
+01:20:08 - [AutoLBLR] Brushing label [3] onto [1] subsequences.
+	[633, 732] 
+
+01:20:08 - [AutoLBLR] Autoclassifying [0] groups.
+
+01:20:08 - [AutoLBLR] Iteration [20].
+	Unlabeled IDX: 8 -  [1, 632] [733, 1324] [2167, 2286] [2605, 3594] [3887, 4413] [4607, 5134] [5278, 5794] [5895, 6000]
+	Progress:      33.1333%
+
+01:20:08 - [AutoLBLR] Running MDL on [8] groups using MotifIDX [2615].
+	Group 1 - Found [0] subsequences: []
+	Group 2 - Found [0] subsequences: []
+	Group 3 - Found [0] subsequences: []
+	Group 4 - Found [0] subsequences: []
+	Group 5 - Found [0] subsequences: []
+	Group 6 - Found [0] subsequences: []
+	Group 7 - Found [0] subsequences: []
+	Group 8 - Found [0] subsequences: []
+
+[AutoLBLR] Motif is 100.00% Class [3].
+
+01:20:08 - [AutoLBLR] Brushing label [3] onto [1] subsequences.
+	[2615, 2714] 
+
+01:20:08 - [AutoLBLR] Autoclassifying [1] groups.
+	4: [2605,2614] -> 3
+
+01:20:08 - [AutoLBLR] Iteration [21].
+	Unlabeled IDX: 8 -  [1, 632] [733, 1324] [2167, 2286] [2715, 3594] [3887, 4413] [4607, 5134] [5278, 5794] [5895, 6000]
+	Progress:      34.9667%
+
+01:20:08 - [AutoLBLR] Running MDL on [8] groups using MotifIDX [571].
+	Group 1 - Found [0] subsequences: []
+	Group 2 - Found [0] subsequences: []
+	Group 3 - Found [0] subsequences: []
+	Group 4 - Found [0] subsequences: []
+	Group 5 - Found [0] subsequences: []
+	Group 6 - Found [0] subsequences: []
+	Group 7 - Found [0] subsequences: []
+	Group 8 - Found [0] subsequences: []
+
+[AutoLBLR] Motif is 100.00% Class [3].
+
+01:20:09 - [AutoLBLR] Brushing label [3] onto [1] subsequences.
+	[571, 670] 
+
+01:20:09 - [AutoLBLR] Autoclassifying [0] groups.
+
+01:20:09 - [AutoLBLR] Iteration [22].
+	Unlabeled IDX: 8 -  [1, 570] [733, 1324] [2167, 2286] [2715, 3594] [3887, 4413] [4607, 5134] [5278, 5794] [5895, 6000]
+	Progress:      36%
+
+01:20:09 - [AutoLBLR] Running MDL on [8] groups using MotifIDX [2817].
+	Group 1 - Found [0] subsequences: []
+	Group 2 - Found [0] subsequences: []
+	Group 3 - Found [0] subsequences: []
+	Group 4 - Found [0] subsequences: []
+	Group 5 - Found [0] subsequences: []
+	Group 6 - Found [0] subsequences: []
+	Group 7 - Found [0] subsequences: []
+	Group 8 - Found [0] subsequences: []
+
+[AutoLBLR] Motif is 100.00% Class [3].
+
+01:20:09 - [AutoLBLR] Brushing label [3] onto [1] subsequences.
+	[2817, 2916] 
+
+01:20:09 - [AutoLBLR] Autoclassifying [0] groups.
+
+01:20:09 - [AutoLBLR] Iteration [23].
+	Unlabeled IDX: 9 -  [1, 570] [733, 1324] [2167, 2286] [2715, 2816] [2917, 3594] [3887, 4413] [4607, 5134] [5278, 5794] [5895, 6000]
+	Progress:      37.6667%
+
+01:20:09 - [AutoLBLR] Running MDL on [9] groups using MotifIDX [2779].
+	Group 1 - Found [0] subsequences: []
+	Group 2 - Found [0] subsequences: []
+	Group 3 - Found [0] subsequences: []
+	Group 4 - Found [0] subsequences: []
+	Group 5 - Found [0] subsequences: []
+	Group 6 - Found [0] subsequences: []
+	Group 7 - Found [0] subsequences: []
+	Group 8 - Found [0] subsequences: []
+	Group 9 - Found [0] subsequences: []
+
+[AutoLBLR] Motif is 100.00% Class [3].
+
+01:20:10 - [AutoLBLR] Brushing label [3] onto [1] subsequences.
+	[2779, 2878] 
+
+01:20:10 - [AutoLBLR] Autoclassifying [1] groups.
+	4: [2715,2778] -> 3
+
+01:20:10 - [AutoLBLR] Iteration [24].
+	Unlabeled IDX: 8 -  [1, 570] [733, 1324] [2167, 2286] [2917, 3594] [3887, 4413] [4607, 5134] [5278, 5794] [5895, 6000]
+	Progress:      39.3667%
+
+01:20:10 - [AutoLBLR] Running MDL on [8] groups using MotifIDX [858].
+	Group 1 - Found [0] subsequences: []
+	Group 2 - Found [0] subsequences: []
+	Group 3 - Found [0] subsequences: []
+	Group 4 - Found [0] subsequences: []
+	Group 5 - Found [0] subsequences: []
+	Group 6 - Found [0] subsequences: []
+	Group 7 - Found [0] subsequences: []
+	Group 8 - Found [0] subsequences: []
+
+[AutoLBLR] Motif is 100.00% Class [3].
+
+01:20:10 - [AutoLBLR] Brushing label [3] onto [1] subsequences.
+	[858, 957] 
+
+01:20:10 - [AutoLBLR] Autoclassifying [0] groups.
+
+01:20:10 - [AutoLBLR] Iteration [25].
+	Unlabeled IDX: 9 -  [1, 570] [733, 857] [958, 1324] [2167, 2286] [2917, 3594] [3887, 4413] [4607, 5134] [5278, 5794] [5895, 6000]
+	Progress:      41.0333%
+
+01:20:10 - [AutoLBLR] Running MDL on [9] groups using MotifIDX [821].
+	Group 1 - Found [0] subsequences: []
+	Group 2 - Found [0] subsequences: []
+	Group 3 - Found [0] subsequences: []
+	Group 4 - Found [0] subsequences: []
+	Group 5 - Found [0] subsequences: []
+	Group 6 - Found [0] subsequences: []
+	Group 7 - Found [0] subsequences: []
+	Group 8 - Found [0] subsequences: []
+	Group 9 - Found [0] subsequences: []
+
+[AutoLBLR] Motif is 100.00% Class [3].
+
+01:20:10 - [AutoLBLR] Brushing label [3] onto [1] subsequences.
+	[821, 920] 
+
+01:20:10 - [AutoLBLR] Autoclassifying [1] groups.
+	2: [733,820] -> 3
+
+01:20:10 - [AutoLBLR] Iteration [26].
+	Unlabeled IDX: 8 -  [1, 570] [958, 1324] [2167, 2286] [2917, 3594] [3887, 4413] [4607, 5134] [5278, 5794] [5895, 6000]
+	Progress:      43.1167%
+
+01:20:11 - [AutoLBLR] Running MDL on [8] groups using MotifIDX [1095].
+	Group 1 - Found [0] subsequences: []
+	Group 2 - Found [0] subsequences: []
+	Group 3 - Found [0] subsequences: []
+	Group 4 - Found [0] subsequences: []
+	Group 5 - Found [0] subsequences: []
+	Group 6 - Found [0] subsequences: []
+	Group 7 - Found [0] subsequences: []
+	Group 8 - Found [0] subsequences: []
+
+[AutoLBLR] Motif is 100.00% Class [3].
+
+01:20:11 - [AutoLBLR] Brushing label [3] onto [1] subsequences.
+	[1095, 1194] 
+
+01:20:11 - [AutoLBLR] Autoclassifying [0] groups.
+
+01:20:11 - [AutoLBLR] Iteration [27].
+	Unlabeled IDX: 9 -  [1, 570] [958, 1094] [1195, 1324] [2167, 2286] [2917, 3594] [3887, 4413] [4607, 5134] [5278, 5794] [5895, 6000]
+	Progress:      44.7833%
+
+01:20:11 - [AutoLBLR] Running MDL on [9] groups using MotifIDX [1032].
+	Group 1 - Found [0] subsequences: []
+	Group 2 - Found [0] subsequences: []
+	Group 3 - Found [0] subsequences: []
+	Group 4 - Found [0] subsequences: []
+	Group 5 - Found [0] subsequences: []
+	Group 6 - Found [0] subsequences: []
+	Group 7 - Found [0] subsequences: []
+	Group 8 - Found [0] subsequences: []
+	Group 9 - Found [0] subsequences: []
+
+[AutoLBLR] Motif is 100.00% Class [3].
+
+01:20:11 - [AutoLBLR] Brushing label [3] onto [1] subsequences.
+	[1032, 1131] 
+
+01:20:11 - [AutoLBLR] Autoclassifying [1] groups.
+	2: [958,1031] -> 3
+
+01:20:11 - [AutoLBLR] Iteration [28].
+	Unlabeled IDX: 8 -  [1, 570] [1195, 1324] [2167, 2286] [2917, 3594] [3887, 4413] [4607, 5134] [5278, 5794] [5895, 6000]
+	Progress:      47.0667%
+
+01:20:11 - [AutoLBLR] Running MDL on [8] groups using MotifIDX [4290].
+	Group 1 - Found [0] subsequences: []
+	Group 2 - Found [0] subsequences: []
+	Group 3 - Found [0] subsequences: []
+	Group 4 - Found [0] subsequences: []
+	Group 5 - Found [0] subsequences: []
+	Group 6 - Found [0] subsequences: []
+	Group 7 - Found [0] subsequences: []
+	Group 8 - Found [0] subsequences: []
+
+[AutoLBLR] Motif is 100.00% Class [5].
+
+01:20:11 - [AutoLBLR] Brushing label [5] onto [1] subsequences.
+	[4290, 4389] 
+
+01:20:12 - [AutoLBLR] Autoclassifying [1] groups.
+	6: [4390,4413] -> 5
+
+01:20:12 - [AutoLBLR] Iteration [29].
+	Unlabeled IDX: 8 -  [1, 570] [1195, 1324] [2167, 2286] [2917, 3594] [3887, 4289] [4607, 5134] [5278, 5794] [5895, 6000]
+	Progress:      49.1333%
+
+01:20:12 - [AutoLBLR] Running MDL on [8] groups using MotifIDX [2237].
+	Group 1 - Found [0] subsequences: []
+	Group 2 - Found [0] subsequences: []
+	Group 3 - Found [0] subsequences: []
+	Group 4 - Found [0] subsequences: []
+	Group 5 - Found [0] subsequences: []
+	Group 6 - Found [0] subsequences: []
+	Group 7 - Found [0] subsequences: []
+	Group 8 - Found [0] subsequences: []
+
+[AutoLBLR] Motif is 100.00% Class [3].
+
+01:20:12 - [AutoLBLR] Brushing label [3] onto [1] subsequences.
+	[2237, 2336] 
+
+01:20:12 - [AutoLBLR] Autoclassifying [1] groups.
+	3: [2167,2236] -> 3
+
+01:20:12 - [AutoLBLR] Iteration [30].
+	Unlabeled IDX: 7 -  [1, 570] [1195, 1324] [2917, 3594] [3887, 4289] [4607, 5134] [5278, 5794] [5895, 6000]
+	Progress:      51.1333%
+
+01:20:12 - [AutoLBLR] Running MDL on [7] groups using MotifIDX [52].
+	Group 1 - Found [0] subsequences: []
+	Group 2 - Found [0] subsequences: []
+	Group 3 - Found [0] subsequences: []
+	Group 4 - Found [0] subsequences: []
+	Group 5 - Found [0] subsequences: []
+	Group 6 - Found [0] subsequences: []
+	Group 7 - Found [0] subsequences: []
+
+[AutoLBLR] Motif is 100.00% Class [3].
+
+01:20:12 - [AutoLBLR] Brushing label [3] onto [1] subsequences.
+	[52, 151] 
+
+01:20:12 - [AutoLBLR] Autoclassifying [1] groups.
+	1: [1,51] -> 3
+
+01:20:12 - [AutoLBLR] Iteration [31].
+	Unlabeled IDX: 7 -  [152, 570] [1195, 1324] [2917, 3594] [3887, 4289] [4607, 5134] [5278, 5794] [5895, 6000]
+	Progress:      53.65%
+
+01:20:12 - [AutoLBLR] Running MDL on [7] groups using MotifIDX [4126].
+	Group 1 - Found [0] subsequences: []
+	Group 2 - Found [0] subsequences: []
+	Group 3 - Found [0] subsequences: []
+	Group 4 - Found [0] subsequences: []
+	Group 5 - Found [0] subsequences: []
+	Group 6 - Found [0] subsequences: []
+	Group 7 - Found [0] subsequences: []
+
+[AutoLBLR] Motif is 100.00% Class [5].
+
+01:20:12 - [AutoLBLR] Brushing label [5] onto [1] subsequences.
+	[4126, 4225] 
+
+01:20:12 - [AutoLBLR] Autoclassifying [1] groups.
+	5: [4226,4289] -> 5
+
+01:20:12 - [AutoLBLR] Iteration [32].
+	Unlabeled IDX: 7 -  [152, 570] [1195, 1324] [2917, 3594] [3887, 4125] [4607, 5134] [5278, 5794] [5895, 6000]
+	Progress:      56.3833%
+
+01:20:13 - [AutoLBLR] Running MDL on [7] groups using MotifIDX [168].
+	Group 1 - Found [0] subsequences: []
+	Group 2 - Found [0] subsequences: []
+	Group 3 - Found [0] subsequences: []
+	Group 4 - Found [0] subsequences: []
+	Group 5 - Found [0] subsequences: []
+	Group 6 - Found [0] subsequences: []
+	Group 7 - Found [0] subsequences: []
+
+[AutoLBLR] Motif is 100.00% Class [3].
+
+01:20:13 - [AutoLBLR] Brushing label [3] onto [1] subsequences.
+	[168, 267] 
+
+01:20:13 - [AutoLBLR] Autoclassifying [1] groups.
+	1: [152,167] -> 3
+
+01:20:13 - [AutoLBLR] Iteration [33].
+	Unlabeled IDX: 7 -  [268, 570] [1195, 1324] [2917, 3594] [3887, 4125] [4607, 5134] [5278, 5794] [5895, 6000]
+	Progress:      58.3167%
+
+01:20:13 - [AutoLBLR] Running MDL on [7] groups using MotifIDX [1217].
+	Group 1 - Found [0] subsequences: []
+	Group 2 - Found [0] subsequences: []
+	Group 3 - Found [0] subsequences: []
+	Group 4 - Found [0] subsequences: []
+	Group 5 - Found [0] subsequences: []
+	Group 6 - Found [0] subsequences: []
+	Group 7 - Found [0] subsequences: []
+
+[AutoLBLR] Motif is 100.00% Class [3].
+
+01:20:13 - [AutoLBLR] Brushing label [3] onto [1] subsequences.
+	[1217, 1316] 
+
+01:20:13 - [AutoLBLR] Autoclassifying [2] groups.
+	2: [1195,1216] -> 3
+	3: [1317,1324] -> 3
+
+01:20:13 - [AutoLBLR] Iteration [34].
+	Unlabeled IDX: 6 -  [268, 570] [2917, 3594] [3887, 4125] [4607, 5134] [5278, 5794] [5895, 6000]
+	Progress:      60.4833%
+
+01:20:13 - [AutoLBLR] Running MDL on [6] groups using MotifIDX [279].
+	Group 1 - Found [0] subsequences: []
+	Group 2 - Found [0] subsequences: []
+	Group 3 - Found [0] subsequences: []
+	Group 4 - Found [0] subsequences: []
+	Group 5 - Found [0] subsequences: []
+	Group 6 - Found [0] subsequences: []
+
+[AutoLBLR] Motif is 100.00% Class [3].
+
+01:20:13 - [AutoLBLR] Brushing label [3] onto [1] subsequences.
+	[279, 378] 
+
+01:20:13 - [AutoLBLR] Autoclassifying [1] groups.
+	1: [268,278] -> 3
+
+01:20:13 - [AutoLBLR] Iteration [35].
+	Unlabeled IDX: 6 -  [379, 570] [2917, 3594] [3887, 4125] [4607, 5134] [5278, 5794] [5895, 6000]
+	Progress:      62.3333%
+
+01:20:13 - [AutoLBLR] Running MDL on [6] groups using MotifIDX [389].
+	Group 1 - Found [0] subsequences: []
+	Group 2 - Found [0] subsequences: []
+	Group 3 - Found [0] subsequences: []
+	Group 4 - Found [0] subsequences: []
+	Group 5 - Found [0] subsequences: []
+	Group 6 - Found [0] subsequences: []
+
+[AutoLBLR] Motif is 100.00% Class [3].
+
+01:20:14 - [AutoLBLR] Brushing label [3] onto [1] subsequences.
+	[389, 488] 
+
+01:20:14 - [AutoLBLR] Autoclassifying [2] groups.
+	1: [379,388] -> 3
+	2: [489,570] -> 3
+
+01:20:14 - [AutoLBLR] Iteration [36].
+	Unlabeled IDX: 5 -  [2917, 3594] [3887, 4125] [4607, 5134] [5278, 5794] [5895, 6000]
+	Progress:      65.5333%
+
+01:20:14 - [AutoLBLR] Running MDL on [5] groups using MotifIDX [4962].
+	Group 1 - Found [0] subsequences: []
+	Group 2 - Found [0] subsequences: []
+	Group 3 - Found [0] subsequences: []
+	Group 4 - Found [0] subsequences: []
+	Group 5 - Found [0] subsequences: []
+
+[AutoLBLR] Motif is 100.00% Class [5].
+
+01:20:14 - [AutoLBLR] Brushing label [5] onto [1] subsequences.
+	[4962, 5061] 
+
+01:20:14 - [AutoLBLR] Autoclassifying [1] groups.
+	4: [5062,5134] -> 5
+
+01:20:14 - [AutoLBLR] Iteration [37].
+	Unlabeled IDX: 5 -  [2917, 3594] [3887, 4125] [4607, 4961] [5278, 5794] [5895, 6000]
+	Progress:      68.4167%
+
+01:20:14 - [AutoLBLR] Running MDL on [5] groups using MotifIDX [3429].
+	Group 1 - Found [0] subsequences: []
+	Group 2 - Found [0] subsequences: []
+	Group 3 - Found [0] subsequences: []
+	Group 4 - Found [0] subsequences: []
+	Group 5 - Found [0] subsequences: []
+
+[AutoLBLR] Motif is 100.00% Class [5].
+
+01:20:14 - [AutoLBLR] Brushing label [5] onto [1] subsequences.
+	[3429, 3528] 
+
+01:20:14 - [AutoLBLR] Autoclassifying [1] groups.
+	2: [3529,3594] -> 5
+
+01:20:14 - [AutoLBLR] Iteration [38].
+	Unlabeled IDX: 5 -  [2917, 3428] [3887, 4125] [4607, 4961] [5278, 5794] [5895, 6000]
+	Progress:      71.1833%
+
+01:20:14 - [AutoLBLR] Running MDL on [5] groups using MotifIDX [5504].
+	Group 1 - Found [0] subsequences: []
+	Group 2 - Found [0] subsequences: []
+	Group 3 - Found [0] subsequences: []
+	Group 4 - Found [0] subsequences: []
+	Group 5 - Found [0] subsequences: []
+
+[AutoLBLR] Motif is 100.00% Class [5].
+
+01:20:14 - [AutoLBLR] Brushing label [5] onto [1] subsequences.
+	[5504, 5603] 
+
+01:20:14 - [AutoLBLR] Autoclassifying [0] groups.
+
+01:20:14 - [AutoLBLR] Iteration [39].
+	Unlabeled IDX: 6 -  [2917, 3428] [3887, 4125] [4607, 4961] [5278, 5503] [5604, 5794] [5895, 6000]
+	Progress:      72.85%
+
+01:20:14 - [AutoLBLR] Running MDL on [6] groups using MotifIDX [5785].
+	Group 1 - Found [0] subsequences: []
+	Group 2 - Found [0] subsequences: []
+	Group 3 - Found [0] subsequences: []
+	Group 4 - Found [0] subsequences: []
+	Group 5 - Found [0] subsequences: []
+	Group 6 - Found [0] subsequences: []
+
+[AutoLBLR] Motif is 100.00% Class [5].
+
+01:20:14 - [AutoLBLR] Brushing label [5] onto [1] subsequences.
+	[5785, 5884] 
+
+01:20:14 - [AutoLBLR] Autoclassifying [0] groups.
+
+01:20:14 - [AutoLBLR] Iteration [40].
+	Unlabeled IDX: 6 -  [2917, 3428] [3887, 4125] [4607, 4961] [5278, 5503] [5604, 5784] [5895, 6000]
+	Progress:      73.0167%
+
+01:20:15 - [AutoLBLR] Running MDL on [6] groups using MotifIDX [5376].
+	Group 1 - Found [0] subsequences: []
+	Group 2 - Found [0] subsequences: []
+	Group 3 - Found [0] subsequences: []
+	Group 4 - Found [0] subsequences: []
+	Group 5 - Found [0] subsequences: []
+	Group 6 - Found [0] subsequences: []
+
+[AutoLBLR] Motif is 100.00% Class [5].
+
+01:20:15 - [AutoLBLR] Brushing label [5] onto [1] subsequences.
+	[5376, 5475] 
+
+01:20:15 - [AutoLBLR] Autoclassifying [2] groups.
+	4: [5278,5375] -> 5
+	5: [5476,5503] -> 5
+
+01:20:15 - [AutoLBLR] Iteration [41].
+	Unlabeled IDX: 5 -  [2917, 3428] [3887, 4125] [4607, 4961] [5604, 5784] [5895, 6000]
+	Progress:      76.7833%
+
+01:20:15 - [AutoLBLR] Running MDL on [5] groups using MotifIDX [4753].
+	Group 1 - Found [0] subsequences: []
+	Group 2 - Found [0] subsequences: []
+	Group 3 - Found [0] subsequences: []
+	Group 4 - Found [0] subsequences: []
+	Group 5 - Found [0] subsequences: []
+
+[AutoLBLR] Motif is 100.00% Class [5].
+
+01:20:15 - [AutoLBLR] Brushing label [5] onto [1] subsequences.
+	[4753, 4852] 
+
+01:20:15 - [AutoLBLR] Autoclassifying [0] groups.
+
+01:20:15 - [AutoLBLR] Iteration [42].
+	Unlabeled IDX: 6 -  [2917, 3428] [3887, 4125] [4607, 4752] [4853, 4961] [5604, 5784] [5895, 6000]
+	Progress:      78.45%
+
+01:20:15 - [AutoLBLR] Running MDL on [6] groups using MotifIDX [4644].
+	Group 1 - Found [0] subsequences: []
+	Group 2 - Found [0] subsequences: []
+	Group 3 - Found [0] subsequences: []
+	Group 4 - Found [0] subsequences: []
+	Group 5 - Found [0] subsequences: []
+	Group 6 - Found [0] subsequences: []
+
+[AutoLBLR] Motif is 100.00% Class [5].
+
+01:20:15 - [AutoLBLR] Brushing label [5] onto [1] subsequences.
+	[4644, 4743] 
+
+01:20:15 - [AutoLBLR] Autoclassifying [2] groups.
+	3: [4607,4643] -> 5
+	4: [4744,4752] -> 5
+
+01:20:15 - [AutoLBLR] Iteration [43].
+	Unlabeled IDX: 5 -  [2917, 3428] [3887, 4125] [4853, 4961] [5604, 5784] [5895, 6000]
+	Progress:      80.8833%
+
+01:20:15 - [AutoLBLR] Running MDL on [5] groups using MotifIDX [5614].
+	Group 1 - Found [0] subsequences: []
+	Group 2 - Found [0] subsequences: []
+	Group 3 - Found [0] subsequences: []
+	Group 4 - Found [0] subsequences: []
+	Group 5 - Found [0] subsequences: []
+
+[AutoLBLR] Motif is 100.00% Class [5].
+
+01:20:15 - [AutoLBLR] Brushing label [5] onto [1] subsequences.
+	[5614, 5713] 
+
+01:20:15 - [AutoLBLR] Autoclassifying [2] groups.
+	4: [5604,5613] -> 5
+	5: [5714,5784] -> 5
+
+01:20:15 - [AutoLBLR] Iteration [44].
+	Unlabeled IDX: 4 -  [2917, 3428] [3887, 4125] [4853, 4961] [5895, 6000]
+	Progress:      83.9%
+
+01:20:15 - [AutoLBLR] Running MDL on [4] groups using MotifIDX [3249].
+	Group 1 - Found [0] subsequences: []
+	Group 2 - Found [0] subsequences: []
+	Group 3 - Found [0] subsequences: []
+	Group 4 - Found [0] subsequences: []
+
+[AutoLBLR] Motif is 100.00% Class [5].
+
+01:20:15 - [AutoLBLR] Brushing label [5] onto [1] subsequences.
+	[3249, 3348] 
+
+01:20:15 - [AutoLBLR] Autoclassifying [1] groups.
+	2: [3349,3428] -> 5
+
+01:20:15 - [AutoLBLR] Iteration [45].
+	Unlabeled IDX: 4 -  [2917, 3248] [3887, 4125] [4853, 4961] [5895, 6000]
+	Progress:      86.9%
+
+01:20:15 - [AutoLBLR] Running MDL on [4] groups using MotifIDX [3993].
+	Group 1 - Found [0] subsequences: []
+	Group 2 - Found [0] subsequences: []
+	Group 3 - Found [0] subsequences: []
+	Group 4 - Found [0] subsequences: []
+
+[AutoLBLR] Motif is 100.00% Class [5].
+
+01:20:15 - [AutoLBLR] Brushing label [5] onto [1] subsequences.
+	[3993, 4092] 
+
+01:20:15 - [AutoLBLR] Autoclassifying [1] groups.
+	3: [4093,4125] -> 5
+
+01:20:15 - [AutoLBLR] Iteration [46].
+	Unlabeled IDX: 4 -  [2917, 3248] [3887, 3992] [4853, 4961] [5895, 6000]
+	Progress:      89.1167%
+
+01:20:16 - [AutoLBLR] Running MDL on [4] groups using MotifIDX [3890].
+	Group 1 - Found [0] subsequences: []
+	Group 2 - Found [0] subsequences: []
+	Group 3 - Found [0] subsequences: []
+	Group 4 - Found [0] subsequences: []
+
+[AutoLBLR] Motif is 100.00% Class [5].
+
+01:20:16 - [AutoLBLR] Brushing label [5] onto [1] subsequences.
+	[3890, 3989] 
+
+01:20:16 - [AutoLBLR] Autoclassifying [2] groups.
+	2: [3887,3889] -> 5
+	3: [3990,3992] -> 5
+
+01:20:16 - [AutoLBLR] Iteration [47].
+	Unlabeled IDX: 3 -  [2917, 3248] [4853, 4961] [5895, 6000]
+	Progress:      90.8833%
+
+01:20:16 - [AutoLBLR] Running MDL on [3] groups using MotifIDX [3007].
+	Group 1 - Found [0] subsequences: []
+	Group 2 - Found [0] subsequences: []
+	Group 3 - Found [0] subsequences: []
+
+[AutoLBLR] Motif is 100.00% Class [5].
+
+01:20:16 - [AutoLBLR] Brushing label [5] onto [1] subsequences.
+	[3007, 3106] 
+
+01:20:16 - [AutoLBLR] Autoclassifying [1] groups.
+	1: [2917,3006] -> -1
+
+01:20:16 - [AutoLBLR] Iteration [48].
+	Unlabeled IDX: 3 -  [3107, 3248] [4853, 4961] [5895, 6000]
+	Progress:      94.05%
+
+01:20:16 - [AutoLBLR] Running MDL on [3] groups using MotifIDX [3110].
+	Group 1 - Found [0] subsequences: []
+	Group 2 - Found [0] subsequences: []
+	Group 3 - Found [0] subsequences: []
+
+[AutoLBLR] Motif is 100.00% Class [5].
+
+01:20:16 - [AutoLBLR] Brushing label [5] onto [1] subsequences.
+	[3110, 3209] 
+
+01:20:16 - [AutoLBLR] Autoclassifying [2] groups.
+	1: [3107,3109] -> 5
+	2: [3210,3248] -> 5
+
+01:20:16 - [AutoLBLR] Iteration [49].
+	Unlabeled IDX: 2 -  [4853, 4961] [5895, 6000]
+	Progress:      96.4167%
+
+01:20:16 - [AutoLBLR] Running MDL on [2] groups using MotifIDX [4859].
+	Group 1 - Found [0] subsequences: []
+	Group 2 - Found [0] subsequences: []
+
+[AutoLBLR] Motif is 100.00% Class [5].
+
+01:20:16 - [AutoLBLR] Brushing label [5] onto [1] subsequences.
+	[4859, 4958] 
+
+01:20:16 - [AutoLBLR] Autoclassifying [2] groups.
+	1: [4853,4858] -> 5
+	2: [4959,4961] -> 5
+
+01:20:16 - [AutoLBLR] Iteration [50].
+	Unlabeled IDX: 1 -  [5895, 6000]
+	Progress:      98.2333%
+
+01:20:16 - [AutoLBLR] Running MDL on [1] groups using MotifIDX [5895].
+	Group 1 - Found [0] subsequences: []
+
+[AutoLBLR] Motif is 100.00% Class [5].
+
+01:20:16 - [AutoLBLR] Brushing label [5] onto [1] subsequences.
+	[5895, 5994] 
+
+01:20:16 - [AutoLBLR] Autoclassifying [1] groups.
+	1: [5995,6000] -> 5
+
