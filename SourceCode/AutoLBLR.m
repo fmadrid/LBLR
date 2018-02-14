@@ -108,8 +108,8 @@ function [Labels, PlotHandles, Completion] = AutoLBLR(TimeSeries, ModelLength, v
     fprintf(fileID, ' %s\n', 'Initialization');
     fprintf(fileID, '==================================================\n');
     fprintf(fileID, 'AutoLBLR Parameters\n');
-    fprintf(fileID, '\tTimeSeries Size:       %d\n', numel(INPUTS.TimeSeries));
-    fprintf(fileID, '\tModelLength:          %d\n', INPUTS.ModelLength);
+    fprintf(fileID, '\tTimeSeries Size: %d\n', numel(INPUTS.TimeSeries));
+    fprintf(fileID, '\tModelLength:     %d\n', INPUTS.ModelLength);
     fprintf(fileID, '\tExclusion Range: %d\n', INPUTS.ExclusionRange);
     fprintf(fileID, '\tBits:            %d\n', INPUTS.Bits);
     fprintf(fileID, '\tClasses:         %d\n', numel(unique(INPUTS.Solution)));
@@ -117,9 +117,9 @@ function [Labels, PlotHandles, Completion] = AutoLBLR(TimeSeries, ModelLength, v
   end
 
   % Function Outputs
-  Labels       = zeros(numel(INPUTS.TimeSeries),1);                                     % Predicted Lables for corresponding TimeSeriespoint
-  PlotHandles  = gobjects(0,0);                                                   % Handles for each plot: {MainPlot, Motif(1), MDL(1), Motif(2), MDL(2), ...}
-  Completion     = [];                                                              % Progress(i) - Percentage of data classified at Iteration i
+  Labels       = zeros(numel(INPUTS.TimeSeries),1);                                           % Predicted Lables for corresponding TimeSeriespoint
+  PlotHandles  = gobjects(0,0);                                                               % Handles for each plot: {MainPlot, Motif(1), MDL(1), Motif(2), MDL(2), ...}
+  Completion     = [];                                                                        % Progress(i) - Percentage of data classified at Iteration i
   DiscreteTimeSeries = Normalization(INPUTS.TimeSeries, [1 2^INPUTS.Bits], 'Discrete', true); % Discretized dataset which will be modeled during MDL
   TimeSeriesIDX      = {transpose(1:numel(INPUTS.TimeSeries))};                               % TimeSeriesIDX{i} - Contiguous and consecutive unlabeled IDX values
 
@@ -160,33 +160,9 @@ function [Labels, PlotHandles, Completion] = AutoLBLR(TimeSeries, ModelLength, v
     try [~,MatrixProfile] = sort(stompSelf(INPUTS.TimeSeries(matTimeSeriesIDX), INPUTS.ModelLength));
     catch ME
       fprintf(fileID, '[AutoLBLR] Matrixrofile error caught.\n');
-      break;
+      warning('stompSelf did not return an appropriate value. Defaulting to the first IDX.\n');
+      MatrixProfile = matTimeSeriesIDX(1);
     end
-
-%     % Catch and terminate experiment if MatrixProfile is empty
-%     if(isempty(MatrixProfile))
-%       fprintf(fileID, '%s - [AutoLBLR] WARNING: MatrixProfile should not be empty. Exiting Labeling process', datestr(now, 'HH:MM:SS'));
-%       break;
-%     end
-% 
-%     % Catch and attempt to recover from unexpected values
-%     if(matTimeSeriesIDX(MatrixProfile(1)) + INPUTS.ModelLength > numel(INPUTS.TimeSeries))
-%       i = matTimeSeriesIDX(MatrixProfile(2));
-%       while matTimeSeriesIDX(MatrixProfile(i)) + INPUTS.ModelLength > numel(INPUTS.TimeSeries)
-%         i = i + 1;
-%         if i > numel(INPUTS.TimeSeries)
-%           break;
-%         end
-%       end
-% 
-%       if(i > numel(INPUTS.TimeSeries))
-%         fprintf(fileID, '%s - [AutoLBLR] WARNING: MatrixProfile did not return a valid sequence.\n', datestr(now, 'HH:MM:SS'));
-%         break;
-%       else
-%         fprintf(fileID, '%s - [AutoLBLR] MatrixProfile returned an invalid subsequence. Recovered using motifIDX [%d].\n', ...
-%           datestr(now, 'HH:MM:SS'), matTimeSeriesIDX(MatrixProfile(i)));
-%       end
-%     end
 
     MotifIDX      = matTimeSeriesIDX(MatrixProfile(1));
     DiscreteModel = GetSubsequence(DiscreteTimeSeries, MotifIDX, INPUTS.ModelLength);

@@ -33,23 +33,28 @@ The **LBLR** application can be initiated by simply executing `LBLR` in the MATL
 semantically similar. If AutoLBLR is not running *blind* it will greedily apply the most likely label as indicated by the `SolutionVector` otherwise the label will simply be the current iteration of the algorithm.
 
 ```
-AutoLBLR(TimeSeries, ModelLength, SolutionVector, ExclusionRange = ModelLength/2, Bits = 4, OPTIONS)
+[Labels, PlotHandles, Completion] = AutoLBLR(TimeSeries, ModelModelLength, Solution = [], OPTIONS)
+
     Inputs:
-        TimeSeries     -
-        ModelLength    -
-        SolutionVector - 
-        
+        TimeSeries     - A numeric non-empty vector with length n
+        ModelLength    - A scalar integer less than n
+        SolutionVector - Classification labels for the corresponding data poitns in 'TimeSeries' representing the ground truth. 
+                         If empty, LBLR will be assumed to operate blind; otherwise, must be a non-empty numeric integer vector 
+                         with length n.
+                         
     Outputs:
-        Labels               -
-        PlotHandles          -
-        CompletionPercentage - 
+        Labels      - Predicted labels for the corresponding points in 'TimeSeries'
+        PlotHandles - An array of figure handles for each of the generated plots.
+        Completion  - Increasing numeric vector indicating the percentage of annotated data after each iteration. 
         
     Options
-        Blind             -
-        ShowPlot          -
-        Colors            -
-        Debug             -
-        MaximumIterations -
+        ExclusionRange    - A heuristically set window which excludes a range of subsequences from the original subsequene when 
+                            checking for similarity.
+        Bits              - Number of bits used to discretize the TimeSeries.
+        Blind             - If enabled, AutoLBLR will NOT math predicted labels to a solution vector. This option is useful for 
+                            identifying preserved subsequences within a defined behavior.
+        Debug             - Outputs a deeper trace to the output file. Used for internal purposes only or really curious users.
+        MaximumIterations - Sets a limit to the amount of iterations AutoLBLR would run.
 ```
 
 ## Built With
