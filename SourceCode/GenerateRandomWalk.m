@@ -14,7 +14,7 @@ function [T] = GenerateRandomWalk(Length, varargin)
 %    Date: 02/12/2018
 
 %% INPUT VALIDATION
-p = inputParse;
+p = inputParser;
 
 paramName     = 'Length';
 validationFcn = @(x) validateattributes(x, {'numeric'}, {'integer', 'scalar', 'positive'});

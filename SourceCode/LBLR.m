@@ -133,7 +133,8 @@ if (isequal(Filename,0) || isequal(Pathname,0))
 end
 
 try
-    Dataset = importdata(strcat(Pathname,Filename));
+    Data = load(strcat(Pathname,Filename));
+    Dataset = Data.TimeSeries;
     validateattributes(Dataset, {'numeric'}, {'nonempty', 'vector'});
 catch ME
     h = errordlg(ME.message);
@@ -543,7 +544,7 @@ for i = 1 : numel(DataIDX)
   InclusionData = max(1, DataIDX{i}(1) - ExclusionRange) : min(DataIDX{i}(end) + ExclusionRange, numel(DiscreteData));
 
   % Runs MDL on the augmented contiguous dataset using the discretized motif as the model
-  [tempMDL, tempScores] = HumanMDL(DiscreteData(InclusionData), DiscreteModel);
+  [tempMDL, tempScores] = MDL(DiscreteData(InclusionData), DiscreteModel);
   GroupMDL_IDX{i}       = InclusionData(tempMDL);
   GroupScores{i}        = transpose(tempScores);
 
